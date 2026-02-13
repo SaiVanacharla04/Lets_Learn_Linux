@@ -1,5 +1,4 @@
 ---
-
 <p align="center">
   <img src="images/banner.png" alt="Linux Masterclass Banner" />
 </p>
@@ -201,5 +200,3 @@ Add screenshots in README like:
 ---
 
 
-
-Do you want me to do that next?
