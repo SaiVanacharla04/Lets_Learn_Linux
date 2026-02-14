@@ -100,88 +100,6 @@ linux-masterclass/
 
 ---
 
-## 🧪 Day 1 Lab Exercises – Linux Introduction & File System
-
-### Exercise 1 – Create Folder Structure
-
-Create the following:
-
-```
-linux-lab/
- ├── project/
- │   ├── file1.txt
- │   └── file2.txt
- └── backup/
-```
-
-**Solution:**
-
-```bash
-mkdir linux-lab
-cd linux-lab
-mkdir project backup
-touch project/file1.txt project/file2.txt
-```
-
----
-
-### Exercise 2 – List Files
-
-List all files including hidden files:
-
-```bash
-ls -la
-```
-
----
-
-### Exercise 3 – Check File Permissions
-
-Check permissions of files:
-
-```bash
-ls -l
-```
-
-* `r` → Read
-* `w` → Write
-* `x` → Execute
-
-Example output:
-
-```
--rw-r--r-- 1 user user 0 Feb 14 12:00 file1.txt
-```
-
----
-
-### Exercise 4 – Create and Execute Script
-
-Create `welcome.sh`:
-
-```bash
-nano welcome.sh
-```
-
-Add:
-
-```bash
-#!/bin/bash
-echo "Welcome to Linux Masterclass"
-```
-
-Run:
-
-```bash
-chmod +x welcome.sh
-./welcome.sh
-```
-
----
-
-## 🖼 Screenshots to Upload
-
-Create an `images/` folder:
 
 | Screenshot                 | Save As                               | Description                            |
 | -------------------------- | ------------------------------------- | -------------------------------------- |
@@ -190,7 +108,6 @@ Create an `images/` folder:
 | ls -l Command Example      | `images/ls-command-example.png`       | Shows file types & permissions         |
 | File Permissions Example   | `images/file-permissions-example.png` | chmod demonstration                    |
 
-Add screenshots in README like:
 
 ```markdown
 ## Linux Architecture Diagram
